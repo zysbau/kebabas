@@ -9,8 +9,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  output: 'export', 
+  output: 'export',
+  basePath: '/kebabas',       // 👈 your repo name
+  assetPrefix: '/kebabas',    // 👈 your repo name
 }
 
-export default nextConfig
-
+export default nextConfig;
